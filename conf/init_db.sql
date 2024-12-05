@@ -1,3 +1,5 @@
+DROP DATABASE IF EXISTS application;
+DROP USER IF EXISTS 'username'@'localhots';
 create database if not exists application;
 use application;
 create table users (username varchar(255), password varchar(255));
